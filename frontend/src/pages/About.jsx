@@ -4,7 +4,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="about">
-      <h2>About MyNewsSite</h2>
+      <h2>About The Actual Truth</h2>
       <p>
         Welcome to <strong>The Actual Truth</strong>, your trusted source for the latest and most
         reliable news from around the world. We are committed to delivering
