@@ -1,0 +1,17 @@
+.home {
+  padding: 32px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.news-grid__empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
