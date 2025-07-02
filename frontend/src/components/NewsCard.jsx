@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import "./NewsCard.css";
 
 export default function NewsCard({ article }) {
-  console.log(article);
+  // console.log(article);
 
   return (
     <div className="news-card">
       <img
-  src={article.imageUrl || "https://via.placeholder.com/600x400?text=No+Image"}
+  src={article.imageUrl}
   alt={article.headline}
   className="news-card__image"
 />

@@ -16,7 +16,7 @@ export default function NewsDetail() {
           const data = await getNewsById(id);
 
           setArticle(data);
-          console.log(article);
+          // console.log(article);
 
         } catch (e) {
           console.error(e);
@@ -34,7 +34,7 @@ export default function NewsDetail() {
     <div className="news-detail">
       <h2 className="news-detail__headline">{article.headline}</h2>
       <img
-  src={article.imageUrl || "https://via.placeholder.com/800x400?text=No+Image"}
+  src={article.imageUrl}
   alt={article.headline}
   className="news-detail__image"
 />
