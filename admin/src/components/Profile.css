@@ -1,0 +1,31 @@
+.profile-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-details {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.article-list {
+  margin-top: 2rem;
+}
+
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
